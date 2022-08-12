@@ -70,7 +70,7 @@ names := SubStr(names, 2)
 ; GUIs ======================================================================
 Gui, NoteList:New, +Resize, %APP_TITLE%
 Gui, NoteList:Add, ListBox, w200 r20 vNoteName, %names%
-Gui, NoteList:Add, Edit, w500 r25 vNoteContent xp+205 yp
+Gui, NoteList:Add, Edit, w500 r20 vNoteContent xp+205 yp
 Gui, NoteList:Show, Autosize, %APP_TITLE%
 
 Return
